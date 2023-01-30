@@ -17,6 +17,8 @@ class BooksController < ApplicationController
     @book = Book.new
   end
 
+  # Todo 4
+
   # GET /books/1/edit
   def edit
   end
