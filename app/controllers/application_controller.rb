@@ -5,3 +5,4 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit :account_update, keys: [:name, :age, :avatar]
   end
 end
+#Todo 6
